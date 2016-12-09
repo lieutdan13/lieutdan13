@@ -1,26 +1,8 @@
 ---
-layout: none
+layout: default
+extra_includes:
+  github: true
 ---
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- start css -->
-        <link rel="stylesheet" id="google-lato-css" href="https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic" type="text/css" media="all">
-        <!--[if lt IE 9]>
-        <link rel='stylesheet' id='twentyfourteen-ie-css'  href='./css/ie.css?ver=20131205' type='text/css' media='all' />
-        <![endif]-->
-        <link rel="stylesheet" id="site-style-css" href="./css/github.min.css?ver=0.1.3" type="text/css" media="all">
-        <link rel="stylesheet" id="site-style-css" href="./css/style.css?ver=0.0.1" type="text/css" media="all">
-        <!-- end css -->
-
-
-        <!-- start js -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-        <script type="text/javascript" src="./js/github.min.js?ver=0.1.3"></script>
-        <!-- end js -->
-    </head>
-    <body>
         <section class="resume-wrap flat" style="background-color:#FFFFFF;">
 			<div class="resume-container">
 				<div class="resume-inner">
@@ -29,21 +11,21 @@ layout: none
 					<!-- start resume header -->
 					<header class="row resume-section-header">
 						<div class="col-sm-3">
-							<img width="400" height="400" src="./img/dan-schaefer-pac.jpg" class="resume-avatar wp-post-image" alt="PAC company photo">
+							<img width="400" height="400" src="{{ site.avatar }}" class="resume-avatar wp-post-image" alt="PAC company photo">
                         </div>
 						<div class="col-sm-7 resume-bio">
-							<h1 class="zmt resume-bio-title">Dan Schaefer</h1>
+							<h1 class="zmt resume-bio-title">{{ site.name }}</h1>
 							<h2 class="zmt resume-bio-tag"><small>{{ site.description }}</small></h2>
 							<ul class="resume-bio-meta">
-								<li><a href="mailto:dan@schaeferzone.net" class="resume-bio-email"><i class="resumecon resumecon-envelope"></i> dan@schaeferzone.net</a></li>
-								<li><i class="resumecon resumecon-phone-square"></i> 440.228.0309</li>
+								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="resumecon resumecon-envelope"></i> {{ site.social_media.email }}</a></li>
+								<li><i class="resumecon resumecon-phone-square"></i> {{ site.social_media.phone }}</li>
 							</ul>
 						</div>
 						<div class="col-sm-2 resume-social-wrap tar">
 							<ul class="resume-bio-social unstyled">
-								<li><a href="http://twitter.com/lieutdan13" target="_blank"><i class="resumecon resumecon-twitter-square"></i></a></li>
-								<li><a href="http://facebook.com/danschaefer13" target="_blank"><i class="resumecon resumecon-facebook-square"></i></a></li>
-								<li><a href="http://github.com/lieutdan13" target="_blank"><i class="resumecon resumecon-github-square"></i></a></li>
+								<li><a href="http://twitter.com/{{ site.social_media.twitter }}" target="_blank"><i class="resumecon resumecon-twitter-square"></i></a></li>
+								<li><a href="http://facebook.com/{{ site.social_media.facebook }}" target="_blank"><i class="resumecon resumecon-facebook-square"></i></a></li>
+								<li><a href="http://github.com/{{ site.social_media.github }}" target="_blank"><i class="resumecon resumecon-github-square"></i></a></li>
 							</ul>
 						</div>
 					</header>
@@ -253,7 +235,7 @@ layout: none
                                 <div class="col-sm-9 github-activity"></div>
                                 <script>
                                     Github.userActivity({
-                                        username: "lieutdan13",
+                                        username: "{{ site.social_media.github }}",
                                         selector: ".github-activity",
                                         limit: 10
                                     });
@@ -268,5 +250,3 @@ layout: none
 				</div>
 			</div>
 		</section>
-    </body>
-</html>

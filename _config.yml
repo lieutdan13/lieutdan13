@@ -8,14 +8,13 @@ name: Dan Schaefer
 description: Coding, Automation, and Open Source Enthusiast
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars0.githubusercontent.com/u/533562?v=3&s=400
+avatar: ./img/dan-schaefer-pac.jpg
 
 #
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
+social_media:
   dribbble:
   email: dan@schaeferzone.net
   facebook: danschaefer13
@@ -23,9 +22,10 @@ footer-links:
   github: lieutdan13
   instagram:
   linkedin: danschaefer13
+  phone: 440.228.0309
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter:
+  twitter: lieutdan13
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
