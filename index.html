@@ -9,10 +9,10 @@ extra_includes:
 
 					<!-- start resume header -->
 					<header class="row resume-section-header">
-						<div class="col-md-3">
+						<div class="col-md-3 d-print-none">
 							<img width="400" height="400" src="{{ site.avatar }}" class="resume-avatar wp-post-image" alt="PAC company photo">
                         </div>
-						<div class="col-md-7 resume-bio">
+						<div class="resume-bio col-md-7">
 							<h1 class="zmt resume-bio-title">{{ site.name }}</h1>
 							<h2 class="zmt resume-bio-tag"><small>{{ site.description }}</small></h2>
 							<ul class="resume-bio-meta">
@@ -20,7 +20,7 @@ extra_includes:
 								<li><i class="resumecon resumecon-phone-square"></i> {{ site.social_media.phone }}</li>
 							</ul>
 						</div>
-						<div class="col-md-2 resume-social-wrap tar">
+						<div class="resume-social-wrap col-md-2 pl-0 tar d-print-none">
 							<ul class="resume-bio-social unstyled">
 								<li><a href="http://twitter.com/{{ site.social_media.twitter }}" target="_blank"><i class="resumecon resumecon-twitter-square"></i></a></li>
 								<li><a href="http://facebook.com/{{ site.social_media.facebook }}" target="_blank"><i class="resumecon resumecon-facebook-square"></i></a></li>
@@ -225,7 +225,7 @@ extra_includes:
 							<hr>
 							<!-- end education wrap -->
 													<!-- start github activity stream -->
-							<section class="row resume-github-wrap no-print">
+							<section class="row resume-github-wrap no-print d-print-none">
 								<div class="col-md-3">
 									<h4 class="zmt resume-item-title">Github Activity</h4>
 								</div>
