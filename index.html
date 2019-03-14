@@ -2,193 +2,190 @@
 layout: default
 extra_includes:
   github: true
----
-        <section class="resume-wrap flat" style="background-color:#FFFFFF;">
-			<div class="resume-container">
-				<div class="resume-inner">
 
-					
+experience:
+  - title: Technical Lead/Senior Software Engineer
+    company: OnShift, Inc.
+    timeframe: Sept 2017 - present
+    description:
+      - Leading a team of high-performant Software Engineers to rearchitect a major component of our legacy application into a more sustainable data model by slicing the application into gRPC microservices.
+      - I drive the team to succeed by encouraging test-driven development, pair programming, and collaboration.
+      - Acting as the team DevOps resource by establishing acceptable metrics for our applications and reporting the status on dashboards.
+      - Collaborate with DBAs, Systems Engineers, and other Software Engineers to formulate the best solution(s) for any given problem.
+
+  - title: Systems Engineer
+    company: OnShift, Inc.
+    timeframe: May 2016 - Sept 2017
+    description:
+      - Built out repeatable Kubernetes infrastructure using Ansible, Cloud Formation, and other AWS technologies.
+      - Collaborated with other Systems Engineers and Software Engineers from multiple teams to build out a CI/CD solution and pipeline for the various applications.
+      - Helped create a framework for new applications to standardize build and deployments.
+      - Built dashboards in Grafana to report the status of infrastruture and applications.
+      - Actively participated in a 24x7 on-call rotation.
+
+  - title: Software Developer/DevOps Engineer
+    company: OnShift, Inc.
+    timeframe: March 2015 - May 2016
+    description:
+      - Migrated the marketing site from a third-party hosting platform to a self-hosted solution, automating the configuration of the servers using Ansible. Developed and maintained code responsible for integrating employee and punch clock data with many of our customers' time and attendance systems. Helped automate configuration of entire, hand-built application infrastructure using Ansible. Maintained Nagios configuration using Ansible and responsible for responding to Nagios alerts in a proactive manner.
+
+  - title: Web Application Developer/Systems Analyst
+    company: Performance Adminstration Corp.
+    timeframe: May 2008 - March 2015
+    description:
+      - Actively developed and Maintained a web application that administers pre-paid maintenance plans and customer retention tools for the automotive industry.
+      - Maintained the entire systems and network infrastructure that supports the application, including the company's internal servers and network.
+      - "These devices and servers include: mail server, LAMP stack servers, DNS, print servers and printers, Samba server, FTP server, development server, workstations (including virtual machines), NAS, Bacula server, content filter, switches, routers, and firewall."
+
+  - title: Development & Operations Team
+    company: High Fidelity, Inc.
+    timeframe: March 2014 - September 2014
+    description:
+      - Infrastructure design and implementation for Virtual Reality software. Assisted in implementing Continuous Integration using Github hooks, Jenkins, and Ansible. Relied heavily on Amazon Web Services for most of the company's infrastructure–more specifically EC2, EBS, ELB, VPC, RDS, S3, Route53, and Cloudwatch. Implemented a backup solution using Bacula.
+
+  - title: Developer Operations Team
+    company: Coffee & Power
+    timeframe: Aug 2011 - April 2013
+    description:
+      - Infrastructure design and implementation, server management, virtual environment provisioning, application and database management, user administration.
+      - Continuous Integration using Subversion hooks, Selenium, and Ansible.
+      - Relied heavily on Amazon Web Services for most of the company's infrastructure–more specifically EC2, EBS, ELB, RDS, S3, and Route53.
+
+  - title: Web Application Developer
+    company: Logic Partners, Inc.
+    timeframe: May 2005 - May 2008
+    description:
+      - Maintained several LAMP stack web applications and static websites, including a repair ticketing system for the railroad industry, an inventory/retail management system for a convenience store distributor, and several static websites for various local companies.
+
+  - title: Residential Computer Consultant
+    company: Kent State University - ResNet
+    timeframe: Aug 2003 - Dec 2005
+    description:
+      - Assisted ResNet Helpdesk and ResNet offices by providing phone and walk-in support on personal computer, network, and Internet related questions.
+      - Debugged various user-computing issues associated with hardware, software and wiring.
+      - Assisted in the removal of viruses and spyware and ensured that the proper software updates are installed correctly.
+      - Configured network switches for replacement of failed switches.
+
+  - title: Computer Technician Intern
+    company: Information Technology Department at Ashland University
+    timeframe: 2002 - 2003
+    description:
+      - Installed and updated software and hardware.
+      - Debugged software and hardware issues, including printers.
+      - Assisted faculty and staff in emergency technology issues.
+
+skillset:
+  - Python
+  - Postgres
+  - Git
+  - Docker
+  - Kubernetes
+  - DevOps
+  - Jenkins
+  - Ansible
+  - RabbitMQ
+  - gRPC
+  - Linux
+  - Bash
+  - Amazon Web Services
+  - Systems Administration
+  - Grafana
+  - Nagios
+  #- Puppet
+  #- Nginx
+  #- Apache
+  #- Network Administration
+  #- PHP
+  #- Ajax
+  #- Javascript
+  #- HTML
+  #- Subversion
+  #- Ubuntu
+---
+<section class="resume-wrap flat" style="background-color:#FFFFFF;">
+  <div class="resume-container container">
+    <div class="row">
+      <div class="resume-inner col-xlg-6 offset-xlg-3 p-0">
+
 					<!-- start resume header -->
 					<header class="row resume-section-header">
-						<div class="col-sm-3">
-							<img width="400" height="400" src="{{ site.avatar }}" class="resume-avatar wp-post-image" alt="PAC company photo">
-                        </div>
-						<div class="col-sm-7 resume-bio">
-							<h1 class="zmt resume-bio-title">{{ site.name }}</h1>
-							<h2 class="zmt resume-bio-tag"><small>{{ site.description }}</small></h2>
-							<ul class="resume-bio-meta">
-								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="resumecon resumecon-envelope"></i> {{ site.social_media.email }}</a></li>
-								<li><i class="resumecon resumecon-phone-square"></i> {{ site.social_media.phone }}</li>
+						<div class="resume-bio col-md-8">
+							<h1 class="resume-bio-title mt-2">{{ site.name }}</h1>
+							<h2 class="resume-bio-tag mt-2"><small>{{ site.description }}</small></h2>
+							<ul class="m-0 mt-2">
+								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="fas fa-envelope"></i> {{ site.social_media.email }}</a></li>
+                <li><a href="tel:{{ site.social_media.phone }}"><i class="fas fa-phone-square"></i> {{ site.social_media.phone }}</a></li>
+							</ul>
+							<ul class="resume-bio-social mx-0 my-2 d-print-none">
+								<li><a href="https://linkedin.com/in/{{ site.social_media.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/{{ site.social_media.github }}" target="_blank"><i class="fab fa-github-square"></i></a></li>
+								<li><a href="https://twitter.com/{{ site.social_media.twitter }}" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
 							</ul>
 						</div>
-						<div class="col-sm-2 resume-social-wrap tar">
-							<ul class="resume-bio-social unstyled">
-								<li><a href="http://twitter.com/{{ site.social_media.twitter }}" target="_blank"><i class="resumecon resumecon-twitter-square"></i></a></li>
-								<li><a href="http://facebook.com/{{ site.social_media.facebook }}" target="_blank"><i class="resumecon resumecon-facebook-square"></i></a></li>
-								<li><a href="http://github.com/{{ site.social_media.github }}" target="_blank"><i class="resumecon resumecon-github-square"></i></a></li>
-							</ul>
-						</div>
+						<div class="col-md-4 offset-md-0 offset-sm-4 d-print-none">
+							<img width="400" height="400" src="{{ site.avatar }}" class="resume-avatar wp-post-image" alt="Photo of Dan Schaefer" />
+            </div>
 					</header>
 					<!-- end resume header -->
 
-					
 					<!-- start main -->
 					<main class="resume-section-main">
 
 													<!-- start objective -->
 							<section class="row resume-objective-wrap">
-								<div class="col-sm-3">
-									<h4 class="zmt resume-item-title">Systems Engineer</h4>
+								<div class="col-lg-3">
+									<h4 class="zmt resume-item-title">Software Engineer</h4>
 								</div>
-								<div class="col-sm-9 resume-objective lead">
-									I am putting my Linux SysAdmin, Ops, and automation skills to use with an innovative company that is making use of modern technology and has creative ideas for the future of the company and the software and services it provides.
-                                </div>
+								<p class="col-lg-9 resume-objective lead">
+                  I am putting my unique skillset of Software Development and systems to use with an innovative company that is making use of modern technology and has creative ideas for the future of the company and the software and services it provides.
+                </p>
 							</section>
 							<hr>
 							<!-- end objective -->
-													<!-- start work experience wrap -->
+
+							<!-- start work experience wrap -->
 							<section class="row resume-work-wrap">
-								<div class="col-sm-3">
+								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Experience</h4>
 								</div>
-								<div class="col-sm-9">
+								<div class="col-lg-9">
 
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Systems Engineer</h4>
-												<h4 class="zmt"><small>OnShift, Inc.</small></h4>
-												<p></p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">May 2016 - present</p>
-											</div>
+								<!-- experience -->
+                {% for exp in page.experience %}
+									<div class="row resume-company-item">
+									  <div class="col-md-8">
+                      <h4 class="mt-1 resume-company-title">{{ exp.title }}</h4>
+                      <h4 class="mt-2 font-italic"><small>{{ exp.company }}</small></h4>
 										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Software Developer/DevOps Engineer</h4>
-												<h4 class="zmt"><small>OnShift, Inc.</small></h4>
-												<p>I migrated the marketing site hosting platform from a third-party to a self-hosted solution, automating the building of the servers using Ansible. I've made many improvements to our code responsible for integrating employee and punch clock data with many of our customers' time and attendance systems. Played a big part in automating the building of the entire application infrastructure using Ansible. Maintain Nagios configuration using Ansible and responsible for responding to Nagios alerts in a proactive manner.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">March 2015 - May 2016</p>
-											</div>
+										<div class="mt-2 col-md-4 tar">
+                      <p class="label label-resume">{{ exp.timeframe }}</p>
 										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Web Application Developer + Systems Analyst</h4>
-												<h4 class="zmt"><small>Performance Adminstration Corp.</small></h4>
-												<p>I maintain a web application that administers pre-paid maintenance plans and customer retention tools for the automotive industry. I also maintain the entire systems and network infrastructure that supports the application, including the company's internal servers and network. These devices and servers include: mail server, web servers, DNS, print servers, Samba server, FTP server, development server, workstations (including virtual machines), NAS, Bacula server, printers, content filter, switches, routers, and firewall.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">May 2008 – March 2015</p>
-											</div>
-										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Development &amp; Operations Team</h4>
-												<h4 class="zmt"><small>High Fidelity, Inc</small></h4>
-												<p>Infrastructure design and implementation for Virtual Reality software. Assisted in implementing Continuous Integration using Github hooks, Jenkins, and Ansible. Relied heavily on Amazon Web Services for most of the company's infrastructure–more specifically EC2, EBS, ELB, VPC, RDS, S3, Route53, and Cloudwatch. Implemented a backup solution using Bacula.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">March 2014 - September 2014</p>
-											</div>
-										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Developer &amp; Operations Team</h4>
-												<h4 class="zmt"><small>Coffee &amp; Power</small></h4>
-												<p>Infrastructure design and implementation, server management, virtual environment provisioning, application and database management, user administration. Continuous Integration using Subversion hooks, Selenium, and Ansible. Relied heavily on Amazon Web Services for most of the company's infrastructure–more specifically EC2, EBS, ELB, RDS, S3, and Route53.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">Aug 2011 – April 2013</p>
-											</div>
-										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Web Application Developer</h4>
-												<h4 class="zmt"><small>Logic Partners, Inc.</small></h4>
-												<p>Maintained several LAMP stack web applications and static websites, including a repair ticketing system for the railroad industry, an inventory/retail management system for a convenience store distributor, and several static websites for various local companies.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">May 2005 – May 2008</p>
-											</div>
-										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Residential Computer Consultant</h4>
-												<h4 class="zmt"><small>Kent State University - ResNet</small></h4>
-												<p>Assisted ResNet Helpdesk and ResNet offices by providing phone and walk-in support on personal computer, network, and Internet related questions. Troubleshot various user-computing problems associated with hardware, software and wiring issues. Assisted in the removal of viruses and spyware and ensured that the proper software updates are installed correctly. Configured network switches for replacement of failed switches.</p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">Aug 2003 – Dec 2005</p>
-											</div>
-										</div>
-										<!-- end company -->
-																			<!-- company -->
-										<div class="row resume-company-item">
-											<div class="col-sm-9">
-												<h4 class="zmt resume-company-title">Computer Technician Intern</h4>
-												<h4 class="zmt"><small>Information Technology Department at Ashland University</small></h4>
-												<p>Installed and updated software and hardware. Troubleshot software and hardware issues, including printers. Assisted faculty and staff in emergency technology issues. </p>
-											</div>
-											<div class="col-sm-3 tar">
-												<p class="label label-resume">2002 – 2003</p>
-											</div>
-										</div>
-										<!-- end company -->
-									
+                    <div class="col resume-exp-desc"><p>{{ exp.description | join:' ' }}</p></div>
+									</div>
+                {% endfor %}
+								<!-- end experience -->
+
 								</div>
 							</section>
+
 							<hr>
 							<!-- end work experience wrap -->
 													<!-- start skillset wrap -->
 							<section class="row resume-skillset-wrap">
-								<div class="col-sm-3">
-									<h4 class="zmt resume-item-title">Skills</h4>
+								<div class="col-lg-3">
+									<h4 class="zmt resume-item-title">Skills/Tools</h4>
 								</div>
-								<div class="col-sm-9 resume-skillset-list-wrap">
+								<div class="col-lg-9 resume-skillset-list-wrap">
 
 									<!-- skillset 1 -->
 									<div class="row">
-										<div class="col-sm-12">
+										<div class="col-lg-12">
 
-											<ul class="unstyled resume-skillset-list">
-												<li><i class="resumecon resumecon-check"></i> Linux</li>
-                                                <li><i class="resumecon resumecon-check"></i> Systems Administration</li>
-                                                <li><i class="resumecon resumecon-check"></i> DevOps</li>
-                                                <li><i class="resumecon resumecon-check"></i> Ansible</li>
-                                                <li><i class="resumecon resumecon-check"></i> Nginx</li>
-                                                <li><i class="resumecon resumecon-check"></i> Ubuntu</li>
-                                                <li><i class="resumecon resumecon-check"></i> Bash</li>
-                                                <li><i class="resumecon resumecon-check"></i> Python</li>
-                                                <li><i class="resumecon resumecon-check"></i> Softlayer Platform</li>
-                                                <li><i class="resumecon resumecon-check"></i> Amazon Web Services</li>
-                                                <li><i class="resumecon resumecon-check"></i> Nagios</li>
-                                                <li><i class="resumecon resumecon-check"></i> Version Control</li>
-                                                <li><i class="resumecon resumecon-check"></i> Git</li>
-                                                <li><i class="resumecon resumecon-check"></i> RDBMS</li>
-                                                <li><i class="resumecon resumecon-check"></i> Puppet</li>
-                                                <li><i class="resumecon resumecon-check"></i> Network Administration</li>
-                                                <li><i class="resumecon resumecon-check"></i> Subversion</li>
-                                                <li><i class="resumecon resumecon-check"></i> Apache</li>
-                                                <li><i class="resumecon resumecon-check"></i> PHP</li>
-                                                <li><i class="resumecon resumecon-check"></i> Ajax</li>
-                                                <li><i class="resumecon resumecon-check"></i> Javascript</li>
-                                                <li><i class="resumecon resumecon-check"></i> HTML</li>
-                                            </ul>
+											<ul class="resume-skillset-list">
+                        {% for skill in page.skillset %}
+                        <li><i class="resumecon resumecon-check d-print-none"></i> {{ skill }}</li>
+                        {% endfor %}
+                      </ul>
 										</div>
 									</div>
 									<!-- end skillset -->
@@ -199,14 +196,14 @@ extra_includes:
 							<!-- end skillset wrap -->
 													<!-- start education wrap -->
 							<section class="row resume-education-wrap">
-								<div class="col-sm-3">
+								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Education</h4>
 								</div>
-								<div class="col-sm-9">
+								<div class="col-lg-9">
 
 																			<!-- skillset 1 -->
 										<div class="row resume-education-item">
-											<div class="col-sm-12">
+											<div class="col-lg-12">
 												<h4 class="zmt resume-education-title">Kent State University</h4>
 												<h4 class="zmt resume-education-tag"><small>Bachelor of Science in Computer Science</small></h4>
 												<p></p>
@@ -215,24 +212,23 @@ extra_includes:
 										<!-- end skillset -->
 																			<!-- skillset 1 -->
 										<div class="row resume-education-item">
-											<div class="col-sm-12">
+											<div class="col-lg-12">
 												<h4 class="zmt resume-education-title">Ashland University</h4>
 												<h4 class="zmt resume-education-tag"><small>Studied Computer Science</small></h4>
 												<p></p>
 											</div>
 										</div>
 										<!-- end skillset -->
-									
 								</div>
 							</section>
 							<hr>
 							<!-- end education wrap -->
 													<!-- start github activity stream -->
-							<section class="row resume-github-wrap no-print">
-								<div class="col-sm-3">
+							<section class="row resume-github-wrap no-print d-print-none">
+								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Github Activity</h4>
 								</div>
-                                <div class="col-sm-9 github-activity"></div>
+                                <div class="col-lg-9 github-activity"></div>
                                 <script>
                                     Github.userActivity({
                                         username: "{{ site.social_media.github }}",
@@ -243,10 +239,9 @@ extra_includes:
 							</section>
 							<hr>
 							<!-- end github activity stream -->
-						
 					</main>
 					<!-- end main -->
-					
 				</div>
-			</div>
-		</section>
+        </div>
+  </div>
+</section>
