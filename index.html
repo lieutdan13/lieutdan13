@@ -114,10 +114,13 @@ skillset:
 						<div class="resume-bio col-md-8">
 							<h1 class="resume-bio-title mt-2">{{ site.name }}</h1>
 							<h2 class="resume-bio-tag mt-2"><small>{{ page.slogan }}</small></h2>
-							<ul class="m-0 mt-2">
+              <div class="row m-0 mt-2">
+							<ul class="col-md-6 col-sm-12 m-0 p-0">
 								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="fas fa-envelope-square mr-1"></i> {{ site.social_media.email }}</a></li>
                 <li><a href="tel:{{ site.social_media.phone }}"><i class="fas fa-phone-square mr-1"></i> {{ site.social_media.phone }}</a></li>
 							</ul>
+              <div class="col p-0"><div class="fas fa-home align-top mt-1"></div> <div class="d-inline-block">55 Mull Ave.<br/>Akron, OH 44313</div></div>
+              </div>
 							<ul class="resume-bio-social mx-0 my-2 d-print-none">
 								<li><a href="https://linkedin.com/in/{{ site.social_media.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 								<li><a href="https://github.com/{{ site.social_media.github }}" target="_blank"><i class="fab fa-github-square"></i></a></li>
@@ -239,7 +242,7 @@ skillset:
                                     });
                                 </script>
 							</section>
-							<hr>
+							<hr class="d-print-none">
 							<!-- end github activity stream -->
 					</main>
 					<!-- end main -->
