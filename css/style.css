@@ -1,5 +1,5 @@
 html {
-  font-size: 2.3rem;
+  font-size: 1rem;
 }
 
 .resume-wrap a i,.resume-wrap {color:#333333;}
@@ -3998,14 +3998,16 @@ a.post-thumbnail:hover {
 }
 
 .fas { font-size: 1.3rem; }
-.fab { font-size: 1.7rem; }
+.fab { font-size: 2rem; }
 .resume-exp-desc { margin-top: 1em; }
+  .resume-bio li { margin: 8px 0; }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   html { font-size: 1rem; }
   .fas { font-size: 1rem; }
   .fab { font-size: 1.5rem; }
+  .resume-bio li { margin: 0; }
   .resume-exp-desc { margin-top: 0; }
 }
 /* Medium devices (tablets, 768px and up) */
