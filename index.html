@@ -3,12 +3,25 @@ layout: default
 extra_includes:
   github: true
 
+targetted_keywords: software engineer, senior software engineer, devops engineer, senior devops engineer, software developer, senior software developer, software engineer in cleveland, software engineer in akron, devops engineer in cleveland, devops engineer in akron, tech lead, technical lead, technical leader, tech lead in cleveland, technical lead in cleveland, technical leader in cleveland, tech lead in akron, technical lead in akron, technical leader in akron
+
 full_name: Dan Schaefer
 avatar: ./img/dan-schaefer-pac.jpg
 slogan: Coding, Automation, and DevOps Enthusiast
+resume_title: Software Engineer
+work_area: Cleveland/Akron, OH
 objective: I am a Software Engineer first with a specialty in implementing DevOps. I believe that DevOps is a culture and not a role or a team, and that Engineering teams should own their code, tests, builds, deployments, infrastructure, monitoring, and reliability of the applications they develop.
 
 experience:
+  - title: Senior Software Engineer
+    company: BrightEdge Technologies, Inc.
+    timeframe: May 2019 - present
+    description:
+      - Architect and implement features that optimize the effectiveness of our SEO Autopilot product
+      - Implement and send emails to users, showing the performance that SEO Autopilot brings to the customer's sites
+      - Help increase user engagement by sending and measuring metrics on A/B testing of said emails
+      - Mentor Junior Developers and conduct code reviews for the team
+
   - title: Technical Lead/Senior Software Engineer
     company: OnShift, Inc.
     timeframe: Sep 2017 - Apr 2019
@@ -142,7 +155,8 @@ skillset:
 													<!-- start objective -->
 							<section class="row resume-objective-wrap">
 								<div class="col-lg-3">
-									<h4 class="zmt resume-item-title">Software Engineer</h4>
+                  <h4 class="zmt resume-item-title">{{ page.resume_title }}</h4>
+                  <small>in the {{ page.work_area }} area</small>
 								</div>
 								<p class="col-lg-9 resume-objective lead">{{ page.objective }}</p>
 							</section>
