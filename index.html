@@ -78,6 +78,7 @@ experience:
   - title: Residential Computer Consultant
     company: Kent State University - ResNet
     timeframe: Aug 2003 - Dec 2005
+    css_class: d-print-none
     description:
       - Assisted ResNet Helpdesk and ResNet offices by providing phone and walk-in support on personal computer, network, and Internet related questions.
       - Debugged various user-computing issues associated with hardware, software and wiring.
@@ -87,6 +88,7 @@ experience:
   - title: Computer Technician Intern
     company: Information Technology Department at Ashland University
     timeframe: 2002 - 2003
+    css_class: d-print-none
     description:
       - Installed and updated software and hardware.
       - Debugged software and hardware issues, including printers.
@@ -156,7 +158,7 @@ skillset:
 							<section class="row resume-objective-wrap">
 								<div class="col-lg-3">
                   <h4 class="zmt resume-item-title">{{ page.resume_title }}</h4>
-                  <small>in the {{ page.work_area }} area</small>
+                  <div class="work-area">in the {{ page.work_area }} area</div>
 								</div>
 								<p class="col-lg-9 resume-objective lead">{{ page.objective }}</p>
 							</section>
@@ -172,7 +174,7 @@ skillset:
 
 								<!-- experience -->
                 {% for exp in page.experience %}
-									<div class="row resume-company-item">
+                <div class="row resume-company-item {{ exp.css_class }}">
 									  <div class="col-md-8">
                       <h4 class="mt-1 resume-company-title">{{ exp.title }}</h4>
                       <h4 class="mt-2 font-italic"><small>{{ exp.company }}</small></h4>

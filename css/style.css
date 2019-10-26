@@ -4049,6 +4049,11 @@ a.post-thumbnail:hover {
     display: inline;
   }
 
+  .work-area {
+    display: inline-block;
+    margin-left: 6px;
+  }
+
   hr {
     margin-bottom: 0px;
   }
@@ -4057,6 +4062,14 @@ a.post-thumbnail:hover {
     width: 100%;
     max-width: 100%;
     flex: none;
+  }
+
+  .resume-item-title {
+    display: inline-block;
+  }
+
+  div.row {
+    page-break-inside: avoid;
   }
 
 	.site,
