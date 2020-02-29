@@ -6,10 +6,11 @@ extra_includes:
 targetted_keywords: software engineer, senior software engineer, devops engineer, senior devops engineer, software developer, senior software developer, software engineer in cleveland, software engineer in akron, devops engineer in cleveland, devops engineer in akron, tech lead, technical lead, technical leader, tech lead in cleveland, technical lead in cleveland, technical leader in cleveland, tech lead in akron, technical lead in akron, technical leader in akron
 
 full_name: Dan Schaefer
-avatar: ./img/dan-schaefer-pac.jpg
+avatar: ./img/2019-dan-schaefer.jpg
 slogan: Coding, Automation, and DevOps Enthusiast
 resume_title: Software Engineer
 work_area: Cleveland/Akron, OH
+address: "Akron, OH"
 objective: I am a Software Engineer first with a specialty in implementing DevOps. I believe that DevOps is a culture and not a role or a team, and that Engineering teams should own their code, tests, builds, deployments, infrastructure, monitoring, and reliability of the applications they develop.
 
 experience:
@@ -94,22 +95,25 @@ experience:
       - Assisted faculty and staff in emergency technology issues.
 
 skillset:
+  - Software Architecture
+  - DevOps
   - Python
-  - Postgres
-  - Git
   - Docker
   - Kubernetes
-  - DevOps
   - Jenkins
   - Ansible
-  - RabbitMQ
+  - Terraform
   - gRPC
+  - Microservices
+  - Postgres
   - Linux
   - Bash
   - Amazon Web Services
-  - Systems Administration
-  - Grafana
+  - GCP
   - Nagios
+  #- RabbitMQ
+  #- Git
+  #- Grafana
   #- Puppet
   #- Nginx
   #- Apache
@@ -120,6 +124,7 @@ skillset:
   #- HTML
   #- Subversion
   #- Ubuntu
+  #- Systems Administration
 ---
 <section class="resume-wrap flat" style="background-color:#FFFFFF;">
   <div class="resume-container container">
@@ -136,7 +141,7 @@ skillset:
 								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="fas fa-envelope-square mr-1"></i> {{ site.social_media.email }}</a></li>
                 <li><a href="tel:{{ site.social_media.phone }}"><i class="fas fa-phone-square mr-1"></i> {{ site.social_media.phone }}</a></li>
 							</ul>
-              <div class="col p-0"><div class="fas fa-home align-top mt-1"></div> <div class="d-inline-block">55 Mull Ave.<br/>Akron, OH 44313</div></div>
+              <div class="col p-0"><div class="fas fa-home align-top mt-1"></div> <div class="d-inline-block">{{ page.address }}</div></div>
               </div>
 							<ul class="resume-bio-social mx-0 my-2 d-print-none">
 								<li><a href="https://linkedin.com/in/{{ site.social_media.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
