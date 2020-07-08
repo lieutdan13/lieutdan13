@@ -4068,6 +4068,11 @@ a.post-thumbnail:hover {
     display: inline-block;
   }
 
+  .label-resume {
+    padding: 0;
+    color: #333;
+  }
+
   div.row {
     page-break-inside: avoid;
   }
