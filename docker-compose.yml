@@ -1,7 +1,9 @@
-jekyll:
+version: "3.9"
+services:
+  jekyll:
     image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental --drafts --unpublished --future --verbose --trace --strict_front_matter -d /tmp/_site
+    command: jekyll serve --verbose --trace --strict_front_matter -d /tmp/_site --safe
     ports:
-        - 4000:4000
+      - 4000:4000
     volumes:
-        - .:/srv/jekyll
+      - .:/srv/jekyll

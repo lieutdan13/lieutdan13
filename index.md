@@ -3,29 +3,75 @@ layout: default
 extra_includes:
   github: true
 
-targetted_keywords: software engineer, senior software engineer, devops engineer, senior devops engineer, software developer, senior software developer, software engineer in cleveland, software engineer in akron, devops engineer in cleveland, devops engineer in akron, tech lead, technical lead, technical leader, tech lead in cleveland, technical lead in cleveland, technical leader in cleveland, tech lead in akron, technical lead in akron, technical leader in akron
+targetted_keywords: software engineer, senior software engineer, devops engineer, senior devops engineer, software developer, senior software developer, software developer lead, software engineer in cleveland, software engineer in akron, devops engineer in cleveland, devops engineer in akron, tech lead, technical lead, technical leader, tech lead in cleveland, technical lead in cleveland, technical leader in cleveland, tech lead in akron, technical lead in akron, technical leader in akron
 
 full_name: Dan Schaefer
-avatar: ./img/2019-dan-schaefer.jpg
+avatar: ./img/DanSchaefer-BlackAndBlueShirt.jpg
 #slogan: Coding, Automation, and DevOps Enthusiast
-slogan: Senior Software Engineer
-resume_title: Senior Software Engineer
+slogan: Software Developer Lead
+resume_title: Software Developer Lead
 work_area: Cleveland/Akron, OH
 address: "Akron, OH"
 #objective: I am a Software Engineer first with a specialty in implementing DevOps. I believe that DevOps is a culture and not a role or a team, and that Engineering teams should own their code, tests, builds, deployments, infrastructure, monitoring, and reliability of the applications they develop.
-objective: I'm looking for opportunities as a hands-on Software Engineer or Team Lead to help drive a team of Engineers to efficiently deliver software by implementing Agile practices and a DevOps culture.
-objective: "I'm looking for opportunities as a hands-on Senior Software Engineer or Team Lead to help drive a team of Engineers to efficiently deliver quality software by implementing best design practices, Agile methodologies, and a DevOps culture. Specialties: Python 2/3, PHP, RDBMS, microservices, Kubernetes, Docker, AWS, GCP, Terraform, Ansible, DevOps, Jenkins."
+#objective: I'm looking for opportunities as a hands-on Software Engineer or Team Lead to help drive a team of Engineers to efficiently deliver software by implementing Agile practices and a DevOps culture.
+objective: "I'm looking for opportunities as a hands-on Technical Team Lead to help standup and/or drive a team of Engineers to efficiently deliver quality software by implementing best design practices, Agile methodologies, and a collaborative and DevOps culture. Specialties: Python 3, AWS, serverless, microservices, containerization, cloud development, CI/CD, infrastructure as code, DevOps."
 
 experience:
+  - title: Software Developer Lead
+    company: Federal Reserve Bank of Cleveland
+    timeframe: Sep 2020 - present
+    description:
+      - Led the effort to standup the program from a development, technology, process, and culture perspective.
+      - Designed, built, and implemented re-useable GitLab CI/CD pipelines, Terraform modules, and other supporting development tools while following industry and security best practices.
+      - Successfully lead an integrations team to build event-based ETL processes in AWS, to transform data from our DynamoDB table into various file formats to send to partners.
+      - Led weekly collaborative sessions across all application development teams within the program, ensuring cross-team communication was maintained.
+      - Created and maintained onboarding documentation for the technology personnel and ensured that best practices were being followed.
+      - Acted as a Scrum Master, Product Owner, and DevOps Engineer in the infancy of the program and transitioned to coach, mentor, and general SME as the program matured.
+    skills:
+      - AWS PaaS
+      - AWS Lambda
+      - AWS DynamoDB
+      - AWS Kinesis
+      - AWS Glue
+      - AWS Step Functions
+      - AWS SQS
+      - AWS S3
+      - AWS IAM
+      - Terraform
+      - GitLab CI/CD
+      - Python 3
+      - BDD
+      - TDD
+      - Python Packages
+      - Git
+      - Bash
+      - Nexus
+      - SonarQube
+      - Jira
+      - Confluence
+      - SAFe Agile
+
   - title: Senior Software Engineer
     company: BrightEdge Technologies, Inc.
-    timeframe: May 2019 - present
+    timeframe: May 2019 - Sep 2020
     description:
-      - Architect and implement features, systems, and microservices that optimize the effectiveness of our SEO Autopilot product using Python 2 for legacy systems and Python 3 for greenfield microservices.
-      - Design and implement centralized Python 3 microservices running in Kubernetes and cloud functions to retrieve, process, and cache Google SERPs.
-      - Implement and send emails to users with A/B testing in mind, showing the performance that SEO Autopilot brings to the customer's sites while helping to increase user engagement with the platform.
-      - Act as a DevOps resource, Scrum Master, and coach for the Autopilot team and other product teams.
-      - Mentor and manage Junior Developers and conduct code reviews for the team.
+      - Architected and implemented features, systems, and microservices that optimize the effectiveness of the SEO Autopilot product using Python 2 for legacy systems and Python 3 for greenfield microservices.
+      - Designed and implemented centralized Python 3 microservices running in Kubernetes and cloud functions to retrieve, process, and cache Google SERPs.
+      - Implemented and sent emails to users with A/B testing in mind, showing the performance that SEO Autopilot brings to the customer's sites while helping to increase user engagement with the platform.
+      - Acted as a stand-in DevOps resource, Scrum Master, and coach for the Autopilot team and other product teams.
+      - Mentored and managed Junior Developers and conducted code reviews for the team.
+    skills:
+      - Python 2/3
+      - PHP
+      - GCP
+      - Google Cloud Run
+      - Terraform
+      - Jenkins
+      - Git
+      - Bash
+      - Linux
+      - Jira
+      - Agile
 
   - title: Technical Lead/Senior Software Engineer
     company: OnShift, Inc.
@@ -36,6 +82,28 @@ experience:
       - Acted as the team DevOps resource by establishing acceptable metrics for our applications, setting up alerts, and reporting the status on internal dashboards.
       - Collaborated with DBAs, Systems Engineers, and other Software Engineers to formulate the best solution(s) for any problem my team had been given to solve.
       - Participated in several lunch-and-learn sessions, where I educated other engineers on the things I have learned in my day-to-day.
+    skills:
+      - Python 2/3
+      - HTML
+      - CSS
+      - JavaScript
+      - gRPC
+      - microservices
+      - CI/CD
+      - Jenkins
+      - AWS
+      - Kubernetes
+      - Docker
+      - Postgres
+      - Ansible
+      - Grafana
+      - Celery
+      - RabbitMQ
+      - Git
+      - Bash
+      - Linux
+      - jFrog Artifactory
+      - SQL Alchemy
 
   - title: Systems Engineer
     company: OnShift, Inc.
@@ -46,6 +114,23 @@ experience:
       - Created a framework for new applications to standardize builds and deployments.
       - Built dashboards in Grafana to report the status of infrastructure and applications.
       - Actively participated in a 24x7 on-call rotation.
+    skills:
+      - Python 2
+      - AWS
+      - CI/CD
+      - Jenkins
+      - Kubernetes
+      - Docker
+      - Postgres
+      - Nginx
+      - Nagios
+      - Ansible
+      - Celery
+      - RabbitMQ
+      - Git
+      - Bash
+      - Linux
+      - Grafana
 
   - title: Software Developer/DevOps Engineer
     company: OnShift, Inc.
@@ -56,6 +141,25 @@ experience:
       - Expanded the infrastructure from a single web server to multiple, load-balanced web servers and celery workers for backend, asynchronous processors.
       - Automated provisioning and configuration of entire, hand-built application infrastructure using Ansible.
       - Maintained Nagios configuration using Ansible and responsible for responding to Nagios alerts in a proactive manner.
+    skills:
+      - Python 2
+      - PHP
+      - Drupal
+      - HTML
+      - CSS
+      - JavaScript
+      - CI/CD
+      - Jenkins
+      - Postgres
+      - Nginx
+      - Nagios
+      - Ansible
+      - Celery
+      - RabbitMQ
+      - Git
+      - Bash
+      - Linux
+      - SQLObject
 
   - title: "Development & Operations Team"
     company: "Coffee & Power/High Fidelity, Inc."
@@ -63,9 +167,23 @@ experience:
     description:
       - Infrastructure design and implementation for Virtual Reality software.
       - Assisted in implementing Continuous Integration using Github hooks, Jenkins, and Ansible.
-      - Relied heavily on Amazon Web Services for most of the company's infrastructure–more specifically EC2, EBS, ELB, VPC, RDS, S3, Route53, and Cloudwatch.
+      - Relied heavily on Amazon Web Services for most of the company's infrastructure.
       - Implemented a backup solution using Bacula.
       - Continuous Integration using Subversion hooks, Selenium, and Ansible.
+    skills:
+      - Jenkins
+      - Ansible
+      - CI/CD
+      - AWS EC2
+      - AWS EBS
+      - AWS ELB
+      - AWS VPC
+      - AWS RDS
+      - AWS S3
+      - AWS Route53
+      - AWS Cloudwatch
+      - Bacula
+      - Subversion
 
   - title: Web Application Developer/Systems Analyst
     company: Performance Administration Corp.
@@ -73,7 +191,31 @@ experience:
     description:
       - Actively developed and maintained a web application that administers pre-paid maintenance plans and customer retention tools for the automotive industry.
       - Maintained the entire systems and network infrastructure that supports the application, including the company's internal servers and network.
-      - "These devices and servers include: mail server, LAMP stack servers, DNS, print servers and printers, Samba server, FTP server, development server, workstations (including virtual machines), NAS, Bacula server, content filter, switches, routers, and firewall."
+    skills:
+      - PHP
+      - MySQL
+      - Apache
+      - HTML
+      - CSS
+      - JavaScript
+      - Git
+      - Bash
+      - Linux
+      - Nagios
+      - Subversion
+      - Puppet
+      - CentOS
+      - mail server
+      - DNS
+      - CUPS print servers and printers
+      - Samba
+      - FTP
+      - desktop support
+      - ProxMox
+      - NAS
+      - Bacula
+      - content filter
+      - network administration
 
   - title: Web Application Developer
     company: Logic Partners, Inc.
@@ -82,6 +224,13 @@ experience:
       - Developed and maintained a repair ticketing system for the railroad industry built on a LAMP stack.
       - Developed and maintained an inventory/retail management system for a convenience store distributor, integrating data from a mainframe system into a MySQL database for reporting and bi-directional syncing of said data.
       - Developed and maintained several static websites for various companies, including the company's own website.
+    skills:
+      - PHP
+      - MySQL
+      - HTML
+      - CSS
+      - JavaScript
+      - CentOS
 
   - title: Residential Computer Consultant
     company: Kent State University - ResNet
@@ -112,44 +261,23 @@ education:
   #  description: Studied Computer Science
 
 skillset:
+  - Technical Leadership
   - Software Architecture
+  - Event-Driven Architecture
+  - Serverless Architecture
   - Microservices
-  - Python 2/3
-  - PHP
-  - Postgres
-  - MySQL
-  - Docker
-  - Kubernetes
-  - Ansible
-  - Terraform
-  - GCP
-  - AWS
-  - gRPC
-  - Git
-  - Jenkins
+  - CI/CD
   - DevOps
   - Linux
-  - Bash
-  - Nagios
-  - Grafana
-  #- Nginx
-  #- Celery
-  #- RabbitMQ
-  #- Puppet
-  #- Apache
   #- Network Administration
   #- Ajax
-  #- Javascript
-  #- HTML
-  #- Subversion
-  #- Ubuntu
   #- Systems Administration
+
 ---
 <section class="resume-wrap flat" style="background-color:#FFFFFF;">
   <div class="resume-container container">
     <div class="row">
       <div class="resume-inner col-xlg-6 offset-xlg-3 p-0">
-
 					<!-- start resume header -->
 					<header class="row resume-section-header">
 						<div class="resume-bio col-md-8">
@@ -173,10 +301,8 @@ skillset:
             </div>
 					</header>
 					<!-- end resume header -->
-
 					<!-- start main -->
 					<main class="resume-section-main">
-
 							<!-- start objective -->
 							<section class="row resume-objective-wrap">
 								<div class="col-lg-3">
@@ -187,14 +313,12 @@ skillset:
 							</section>
 							<hr>
 							<!-- end objective -->
-
 							<!-- start work experience wrap -->
 							<section class="row resume-work-wrap">
 								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Experience</h4>
 								</div>
 								<div class="col-lg-9">
-
 								<!-- experience -->
                 {% for exp in page.experience %}
                 <div class="row resume-company-item {{ exp.css_class }}">
@@ -205,28 +329,24 @@ skillset:
 										<div class="mt-2 col-md-4 tar">
                       <p class="label label-resume">{{ exp.timeframe }}</p>
 										</div>
-                    <div class="col resume-exp-desc"><p>{{ exp.description | join:' ' }}</p></div>
-									</div>
+                    <div class="col-12 resume-exp-desc"><p>{{ exp.description | join:' ' }}</p></div>
+                    {% if exp.skills %}<div class="col-12 resume-exp-skils"><b>Skills: </b>{{ exp.skills | join: ', ' }}</div>{% endif %}
+								</div>
                 {% endfor %}
 								<!-- end experience -->
-
 								</div>
 							</section>
-
 							<hr>
 							<!-- end work experience wrap -->
-
 							<!-- start skillset wrap -->
 							<section class="row resume-skillset-wrap">
 								<div class="col-lg-3">
-									<h4 class="zmt resume-item-title">Skills/Tools</h4>
+									<h4 class="zmt resume-item-title">Additional Skills</h4>
 								</div>
 								<div class="col-lg-9 resume-skillset-list-wrap">
-
 									<!-- skillset 1 -->
 									<div class="row">
 										<div class="col-lg-12">
-
 											<ul class="resume-skillset-list">
                         {% for skill in page.skillset %}
                         <li><i class="resumecon resumecon-check d-print-none"></i> {{ skill }}</li>
@@ -235,19 +355,16 @@ skillset:
 										</div>
 									</div>
 									<!-- end skillset -->
-
 								</div>
 							</section>
 							<hr>
 							<!-- end skillset wrap -->
-
 						  <!-- start education wrap -->
 							<section class="row resume-education-wrap">
 								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Education</h4>
 								</div>
 								<div class="col-lg-9">
-
                 {% for edu in page.education %}
 										<div class="row resume-education-item">
 											<div class="col-lg-12">
@@ -261,7 +378,6 @@ skillset:
 							</section>
 							<hr>
 							<!-- end education wrap -->
-
 							<!-- start github activity stream -->
 							<section class="row resume-github-wrap no-print d-print-none">
 								<div class="col-lg-3">
