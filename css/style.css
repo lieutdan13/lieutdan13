@@ -4000,6 +4000,7 @@ a.post-thumbnail:hover {
 .fas { font-size: 1.3rem; }
 .fab { font-size: 2rem; }
 .resume-exp-desc { margin-top: 1em; }
+.resume-exp-desc p { margin-bottom: 0; }
 .resume-bio li { margin: 8px 0; }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -4037,6 +4038,15 @@ a.post-thumbnail:hover {
 
   header.resume-section-header {
     margin-bottom: 40px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 36px 0 0;
   }
 
   a {

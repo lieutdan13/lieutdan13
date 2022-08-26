@@ -14,32 +14,33 @@ work_area: Cleveland/Akron, OH
 address: "Akron, OH"
 #objective: I am a Software Engineer first with a specialty in implementing DevOps. I believe that DevOps is a culture and not a role or a team, and that Engineering teams should own their code, tests, builds, deployments, infrastructure, monitoring, and reliability of the applications they develop.
 #objective: I'm looking for opportunities as a hands-on Software Engineer or Team Lead to help drive a team of Engineers to efficiently deliver software by implementing Agile practices and a DevOps culture.
-objective: "I'm looking for opportunities as a hands-on Technical Team Lead to help standup and/or drive a team of Engineers to efficiently deliver quality software by implementing best design practices, Agile methodologies, and a collaborative and DevOps culture. Specialties: Python 3, AWS, serverless, microservices, containerization, cloud development, CI/CD, infrastructure as code, DevOps."
+objective: "I'm looking for opportunities as a hands-on Technical Team Lead to help standup and/or drive a team of Engineers to efficiently deliver quality software by implementing best design practices and Agile methodologies with a collaborative and DevOps culture."
 
 experience:
   - title: Software Developer Lead
     company: Federal Reserve Bank of Cleveland
     timeframe: Sep 2020 - present
     description:
-      - Led the effort to standup the program from a development, technology, process, and culture perspective.
+      - Led the effort to establish and define programming languages, tools, frameworks, AWS technologies, SDLC processes, CI/CD processes, etc. for the entire program.
       - Designed, built, and implemented re-useable GitLab CI/CD pipelines, Terraform modules, and other supporting development tools while following industry and security best practices.
-      - Successfully lead an integrations team to build event-based ETL processes in AWS, to transform data from our DynamoDB table into various file formats to send to partners.
+      - Successfully led an integrations team to build event-based ETL processes in AWS, to transform data from our DynamoDB table into various file formats to send to partners.
       - Led weekly collaborative sessions across all application development teams within the program, ensuring cross-team communication was maintained.
       - Created and maintained onboarding documentation for the technology personnel and ensured that best practices were being followed.
-      - Acted as a Scrum Master, Product Owner, and DevOps Engineer in the infancy of the program and transitioned to coach, mentor, and general SME as the program matured.
+      - Heavily involved in the interviewing for developers, QA Lead(s), IT Managers, Product Owners, Scrum Masters, etc.
+      # - Acted as a stand-in Scrum Master, Product Owner, DevOps Engineer, Application Architect in the infancy of the program and transitioned to coach, mentor, and general SME as the program matured.
     skills:
-      - AWS PaaS
+      - AWS GovCloud
       - AWS Lambda
-      - AWS DynamoDB
-      - AWS Kinesis
-      - AWS Glue
-      - AWS Step Functions
-      - AWS SQS
-      - AWS S3
-      - AWS IAM
+      - DynamoDB
+      - Kinesis
+      - Glue
+      - Step Functions
+      - SQS
+      - S3
+      - IAM
+      - Python 3
       - Terraform
       - GitLab CI/CD
-      - Python 3
       - BDD
       - TDD
       - Python Packages
@@ -49,7 +50,7 @@ experience:
       - SonarQube
       - Jira
       - Confluence
-      - SAFe Agile
+      - SAFe
 
   - title: Senior Software Engineer
     company: BrightEdge Technologies, Inc.
@@ -99,11 +100,12 @@ experience:
       - Grafana
       - Celery
       - RabbitMQ
+      - SQL Alchemy
       - Git
       - Bash
       - Linux
       - jFrog Artifactory
-      - SQL Alchemy
+      - Jira
 
   - title: Systems Engineer
     company: OnShift, Inc.
@@ -339,7 +341,7 @@ skillset:
 							<hr>
 							<!-- end work experience wrap -->
 							<!-- start skillset wrap -->
-							<section class="row resume-skillset-wrap">
+							<section class="row resume-skillset-wrap d-print-none">
 								<div class="col-lg-3">
 									<h4 class="zmt resume-item-title">Additional Skills</h4>
 								</div>
@@ -370,7 +372,6 @@ skillset:
 											<div class="col-lg-12">
                         <h4 class="zmt resume-education-title">{{ edu.institution }}</h4>
                         <h4 class="zmt resume-education-tag"><small>{{ edu.description }} - {{ edu.graduation_year }}</small></h4>
-												<p></p>
 											</div>
 										</div>
                 {% endfor %}
