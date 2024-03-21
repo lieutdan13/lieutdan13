@@ -12,6 +12,9 @@ slogan: Software Developer Lead
 resume_title: Software Developer Lead
 work_area: Cleveland/Akron, OH
 address: "Akron, OH"
+website:
+  text: danschaefer.dev
+  url: https://danschaefer.dev
 #objective: I am a Software Engineer first with a specialty in implementing DevOps. I believe that DevOps is a culture and not a role or a team, and that Engineering teams should own their code, tests, builds, deployments, infrastructure, monitoring, and reliability of the applications they develop.
 #objective: I'm looking for opportunities as a hands-on Software Engineer or Team Lead to help drive a team of Engineers to efficiently deliver software by implementing Agile practices and a DevOps culture.
 objective: "I'm looking for opportunities as a hands-on Technical Team Lead to help standup and/or drive a team of Engineers to efficiently deliver quality software by implementing best design practices and Agile methodologies with a collaborative and DevOps culture."
@@ -288,9 +291,12 @@ skillset:
               <div class="row m-0 mt-2">
 							<ul class="col-md-6 col-sm-12 m-0 p-0">
 								<li><a href="mailto:{{ site.social_media.email }}" class="resume-bio-email"><i class="fas fa-envelope-square mr-1"></i> {{ site.social_media.email }}</a></li>
-                <li><a href="tel:{{ site.social_media.phone }}"><i class="fas fa-phone-square mr-1"></i> {{ site.social_media.phone }}</a></li>
+                <li><a href="{{ page.website.url }}" target="_blank"><i class="fas fa-globe mr-1"></i> {{ page.website.text }}</a></li>
 							</ul>
-              <div class="col p-0"><div class="fas fa-home align-top mt-1"></div> <div class="d-inline-block">{{ page.address }}</div></div>
+              <ul class="col-md-6 col-sm-12 m-0 p-0">
+                <li><div class="fas fa-home mr-1"></div> <div class="d-inline-block">{{ page.address }}</div></li>
+                <li><a href="tel:{{ site.social_media.phone }}"><i class="fas fa-phone-square mr-1"></i> {{ site.social_media.phone }}</a></li>
+              </ul>
               </div>
 							<ul class="resume-bio-social mx-0 my-2 d-print-none">
 								<li><a href="https://linkedin.com/in/{{ site.social_media.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
