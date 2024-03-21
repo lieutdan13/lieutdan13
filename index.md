@@ -266,17 +266,18 @@ education:
   #  description: Studied Computer Science
 
 skillset:
-  - Technical Leadership
+  - Team Leadership
+  - Mentoring/Coaching
   - Software Architecture
   - Event-Driven Architecture
   - Serverless Architecture
   - Microservices
   - CI/CD
   - DevOps
-  - Linux
-  #- Network Administration
-  #- Ajax
-  #- Systems Administration
+  # - Linux
+  # - Network Administration
+  # - Ajax
+  # - Systems Administration
 
 ---
 <section class="resume-wrap flat" style="background-color:#FFFFFF;">
