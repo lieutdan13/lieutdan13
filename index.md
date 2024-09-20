@@ -8,7 +8,7 @@ targetted_keywords: software engineer, senior software engineer, devops engineer
 title: Dan Schaefer | Software Developer Lead
 
 full_name: Dan Schaefer
-avatar: ./img/DanSchaefer-BlackAndBlueShirt.jpg
+avatar: ./img/DanSchaefer-BlackAndBlueShirt-400x400.jpg
 #slogan: Coding, Automation, and DevOps Enthusiast
 slogan: Software Developer Lead
 resume_title: Software Developer Lead
