@@ -5,6 +5,8 @@ extra_includes:
 
 targetted_keywords: software engineer, senior software engineer, devops engineer, senior devops engineer, software developer, senior software developer, software developer lead, software engineer in cleveland, software engineer in akron, devops engineer in cleveland, devops engineer in akron, tech lead, technical lead, technical leader, tech lead in cleveland, technical lead in cleveland, technical leader in cleveland, tech lead in akron, technical lead in akron, technical leader in akron
 
+title: Dan Schaefer | Software Developer Lead
+
 full_name: Dan Schaefer
 avatar: ./img/DanSchaefer-BlackAndBlueShirt.jpg
 #slogan: Coding, Automation, and DevOps Enthusiast
